@@ -23,9 +23,9 @@
                     <span>Cliente</span>
                 </div>
             </div>
-            <form class="inputs-container">
-                <input class="input" type="text" placeholder="Usuario">
-                <input class="input" type="text" placeholder="Contraseña">
+            <form class="inputs-container" id="formulario" action="../Controlador/login.php" method="POST">
+                <input class="input" type="text" placeholder="Usuario" name="txt1">
+                <input class="input" type="text" placeholder="Contraseña" name="txt2">
                 <p>¿olvidaste tu contraseña? <span class="span">Click aqui</span></p>
                 <button class="btn">Iniciar sesion</button>
             </form>
